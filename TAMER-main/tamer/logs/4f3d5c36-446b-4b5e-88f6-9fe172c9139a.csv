@@ -1,0 +1,5 @@
+Episode,Ep start ts,Feedback ts,Human Reward,Environment Reward
+Episode,Ep start ts,Feedback ts,Human Reward,Environment Reward
+2,14:26:57.236713,14:27:03.084132,-1,-1.1341031607807963
+2,14:26:57.236713,14:27:03.615510,-1,0.23354075519151365
+2,14:26:57.236713,14:27:03.978981,-1,2.079295610763478
