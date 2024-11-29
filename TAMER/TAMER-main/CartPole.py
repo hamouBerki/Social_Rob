@@ -47,30 +47,4 @@ async def main():
 if __name__ == '__main__':
     asyncio.run(main())
     
-    
-    import matplotlib.pyplot as plt
-
-# Data from the results
-episodes = list(range(1, 21))
-timesteps = [17, 16, 70, 13, 11, 10, 8, 9, 8, 8, 8, 9, 8, 9, 8, 8, 7, 9, 8, 8]
-rewards = [18.0, 17.0, 71.0, 14.0, 12.0, 11.0, 9.0, 10.0, 9.0, 9.0, 9.0, 10.0, 9.0, 10.0, 9.0, 9.0, 8.0, 10.0, 9.0, 9.0]
-
-# Plotting the data
-plt.figure(figsize=(10, 6))
-
-# Timesteps plot
-plt.plot(episodes, timesteps, label='Timesteps per Episode', marker='o')
-
-# Rewards plot
-plt.plot(episodes, rewards, label='Rewards per Episode', marker='s')
-
-# Customizing the plot
-plt.title('LunarLander Performance Over Episodes')
-plt.xlabel('Episode Number')
-plt.ylabel('Value')
-plt.legend()
-plt.grid(True)
-
-# Display the plot
-plt.show()
-
+  
